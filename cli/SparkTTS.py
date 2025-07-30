@@ -78,7 +78,6 @@ class SparkTTS:
         )
 
         if use_multilingual:
-            print(f"Using multilingual mode for language: {language}")
             if language == "nl":
                 language_token = "<|language_nl|>"
             elif language == "fr":
@@ -195,7 +194,6 @@ class SparkTTS:
         )
 
         if use_multilingual:
-            print(f"Using multilingual mode for language: {language}")
             if language == "nl":
                 language_token = "<|language_nl|>"
             elif language == "fr":
